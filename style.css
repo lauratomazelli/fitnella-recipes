@@ -1,0 +1,230 @@
+nav{
+    max-width: 1120px; 
+    padding: 1.5rem 10rem; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 48px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #a84818;
+    font-size: 30px;
+    text-decoration: none;   
+}
+
+.menu-item {
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+.menu-item:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+.git:hover{
+    color: green;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+.seletor:hover {
+    text-decoration: underline;
+  }
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo{
+    background-color: #fcb472;
+}
+
+.hero{
+    color: #9e0004;
+
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.hero-imagens{
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+    }
+
+hr{
+    border-color: #a84818;
+}
+
+.hero-imagens > figure > img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.destaque{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: green;
+}
+
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 3.5rem;
+}
+
+.hero-subt{
+    font-weight: 350;
+    font-size: 1.5rem;
+    color: #a84818;
+}
+
+.receitas{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1120px;
+    padding: 4rem 2rem;
+    margin: auto;
+}
+
+.receitas-cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-titulo{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #da6e09;
+}
+
+.receitas-subtitulo{
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 450;
+}
+
+.receitas-card-container{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.receitas-card{
+    background-color: rgb(107, 142, 35);
+    color: wheat;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+
+    box-sizing: border-box;
+}
+
+.fire {
+    color: yellow;
+}
+
+.receitas-card-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.receitas-card-cabecalho-detalhe{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 18px;
+}
+
+.receita-titulo{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.receita-avaliacao{
+    text-transform: uppercase;
+    color: goldenrod
+}
+
+.receita-descricao{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.receita-avaliacao-autor{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.receita-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.receita-autor > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+footer{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color:  rgb(158, 0, 4, 0.6);
+    color: wheat;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1,5rem;
+}
